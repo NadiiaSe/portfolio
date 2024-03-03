@@ -41,25 +41,30 @@ p {
   font-size: 24px;
   line-height: 2;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-page {
+.content {
   margin: 30px;
 }
-.about-page h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1.4;
 }
-.about-page h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--second-font);
   margin: 0;
 }
-.about-page p {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--second-font);
+  margin: 0;
+}
+.content p {
   margin: 0;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
 }
 .btn-branded {
@@ -113,10 +118,10 @@ p {
     font-size: 22px;
     line-height: 1.5;
   }
-  .about-section {
+  .content-container {
     padding: 30px 10px;
   }
-  .about-page {
+  .content {
     text-align: center;
     margin: 10px;
   }
