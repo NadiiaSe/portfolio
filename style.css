@@ -28,6 +28,7 @@ p {
   line-height: 1.7;
   margin: 48px;
 }
+
 .hero p {
   font-weight: bold;
   font-size: 36px;
@@ -39,6 +40,27 @@ p {
 .hero h2 {
   font-size: 24px;
   line-height: 2;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-page {
+  margin: 30px;
+}
+.about-page h1 {
+  font-size: 64px;
+  line-height: 1.4;
+}
+.about-page h2 {
+  font-size: 18px;
+  font-family: var(--second-font);
+  margin: 0;
+}
+.about-page p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .btn-branded {
   background: var(--main-color);
@@ -90,5 +112,12 @@ p {
   .hero h2 {
     font-size: 22px;
     line-height: 1.5;
+  }
+  .about-section {
+    padding: 30px 10px;
+  }
+  .about-page {
+    text-align: center;
+    margin: 10px;
   }
 }
