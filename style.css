@@ -28,6 +28,28 @@ p {
   line-height: 1.7;
   margin: 48px;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+nav a:hover,
+.active {
+  color: var(--main-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
 
 .hero p {
   font-weight: bold;
