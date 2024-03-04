@@ -22,6 +22,9 @@ h2 {
   font-size: 64px;
   margin: 48px 0px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: var(--second-font);
   font-weight: medium;
@@ -109,6 +112,43 @@ nav a:hover,
 }
 .description {
   padding: 5px 20px;
+}
+footer .mail {
+  padding: 20px 0px;
+}
+footer .mail a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #272142;
+}
+footer .mail a:hover {
+  color: var(--main-color);
+  transition: all 100ms ease-in-out;
+}
+footer .social {
+  padding: 20px 0px 40px 0px;
+}
+footer .social a {
+  margin: 0px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--main-color);
+  background-color: var(--bg-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+footer .social a:hover {
+  color: var(--bg-color);
+  background-color: var(--main-color);
+  transition: all 100ms ease-in-out;
+}
+.footer-work {
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  padding: 20px 120px;
+}
+.footer-work p {
+  margin: 0px;
 }
 @media (max-width: 960px) {
   .description {
